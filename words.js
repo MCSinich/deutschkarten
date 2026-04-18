@@ -953,6 +953,105 @@ const WORDS = [
       "Ich entscheide mich für das blaue Kleid. — Я выбираю синее платье."
     ]
   },
+  {
+    word: "holen",
+    translation: "забирать, сходить и принести",
+    usage: "Правильный глагол. holen — holte — hat geholt. Используется когда нужно пойти куда-то и вернуть что-то/кого-то обратно.",
+    examples: [
+      "Ich hole dich ab. — Я тебя заберу. (abholen — отделяемая приставка)",
+      "Er holt Wasser aus der Küche. — Он идёт за водой на кухню."
+    ]
+  },
+  {
+    word: "bringen",
+    translation: "приносить, доставлять",
+    usage: "Глагол. bringen — brachte — hat gebracht. Используется когда несёшь что-то от себя к кому-то.",
+    examples: [
+      "Ich bringe dir Kaffee. — Я принесу тебе кофе.",
+      "Er bringt das Paket zur Post. — Он несёт посылку на почту."
+    ]
+  },
+  {
+    word: "vorschlagen",
+    translation: "предлагать (идею, вариант)",
+    usage: "Глагол с отделяемой приставкой vor-. vorschlagen — schlug vor — hat vorgeschlagen. Er/sie schlägt vor.",
+    examples: [
+      "Ich schlage vor, ins Kino zu gehen. — Я предлагаю пойти в кино.",
+      "Was schlägst du vor? — Что ты предлагаешь?"
+    ]
+  },
+  {
+    word: "anbieten",
+    translation: "предлагать (услугу, помощь, товар)",
+    usage: "Глагол с отделяемой приставкой an-. anbieten — bot an — hat angeboten. Используется когда даёшь что-то конкретное.",
+    examples: [
+      "Ich biete dir Hilfe an. — Я предлагаю тебе помощь.",
+      "Das Geschäft bietet gute Preise an. — Магазин предлагает хорошие цены."
+    ]
+  },
+  {
+    word: "der Vorschlag",
+    translation: "предложение, идея",
+    usage: "Существительное, мужской род. Мн. число: die Vorschläge.",
+    examples: [
+      "Das ist ein guter Vorschlag. — Это хорошее предложение (идея).",
+      "Hast du einen Vorschlag? — У тебя есть предложение?"
+    ]
+  },
+  {
+    word: "das Angebot",
+    translation: "предложение (товар/услуга), акция",
+    usage: "Существительное, средний род. Мн. число: die Angebote.",
+    examples: [
+      "Dieses Angebot ist günstig. — Это выгодное предложение.",
+      "Im Supermarkt gibt es viele Angebote. — В супермаркете много акций."
+    ]
+  },
+  {
+    word: "die Ware",
+    translation: "товар",
+    usage: "Существительное, женский род. Мн. число: die Waren.",
+    examples: [
+      "Die Ware ist neu. — Товар новый.",
+      "Die Waren werden geliefert. — Товары доставляются."
+    ]
+  },
+  {
+    word: "anmachen",
+    translation: "включать; (разг.) флиртовать",
+    usage: "Глагол с отделяемой приставкой an-. anmachen — machte an — hat angemacht.",
+    examples: [
+      "Mach das Licht an. — Включи свет.",
+      "Ich mache die Musik an. — Я включаю музыку."
+    ]
+  },
+  {
+    word: "ausmachen",
+    translation: "выключать; договариваться",
+    usage: "Глагол с отделяемой приставкой aus-. ausmachen — machte aus — hat ausgemacht.",
+    examples: [
+      "Mach das Licht aus. — Выключи свет.",
+      "Wir machen einen Termin aus. — Мы договариваемся о встрече."
+    ]
+  },
+  {
+    word: "gießen",
+    translation: "лить, поливать",
+    usage: "Глагол. gießen — goss — hat gegossen. Используется для жидкостей или растений.",
+    examples: [
+      "Ich gieße die Blumen. — Я поливаю цветы.",
+      "Er gießt Wasser ins Glas. — Он наливает воду в стакан."
+    ]
+  },
+  {
+    word: "leihen",
+    translation: "одалживать / брать взаймы",
+    usage: "Глагол. leihen — lieh — hat geliehen. jemandem leihen — дать в долг; sich leihen — взять в долг.",
+    examples: [
+      "Ich leihe dir Geld. — Я одалживаю тебе деньги.",
+      "Ich leihe mir ein Buch. — Я беру книгу на время."
+    ]
+  },
 
   {
     word: "der Apfel",
