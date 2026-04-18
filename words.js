@@ -794,7 +794,7 @@ const WORDS = [
   {
     word: "tragen",
     translation: "носить (одежду)",
-    usage: "Глагол. Формы: tragen — trug — getragen. Er/sie trägt.",
+    usage: "Глагол. Formen: tragen — trug — hat getragen. Er/sie trägt.",
     examples: [
       "Ich trage im Sommer gern Leinen. — Летом я люблю носить лён.",
       "Was trägst du heute? — Что ты сегодня носишь?"
@@ -803,7 +803,7 @@ const WORDS = [
   {
     word: "anziehen",
     translation: "надевать",
-    usage: "Глагол с отделяемой приставкой. Anziehen — zog an — angezogen.",
+    usage: "Глагол с отделяемой приставкой. anziehen — zog an — hat angezogen.",
     examples: [
       "Ich ziehe heute ein Kleid an. — Я сегодня надеваю платье.",
       "Zieh etwas Warmes an! — Надень что-нибудь тёплое!"
@@ -812,7 +812,7 @@ const WORDS = [
   {
     word: "passen",
     translation: "подходить, соответствовать",
-    usage: "Правильный глагол. Используется: passen zu (сочетаться с) и passen (по размеру).",
+    usage: "Правильный глагол. passen — passte — hat gepasst. Используется: passen zu (сочетаться с) и passen (по размеру).",
     examples: [
       "Diese Farben passen gut zusammen. — Эти цвета хорошо сочетаются.",
       "Die Hose passt mir nicht. — Брюки мне не подходят (не по размеру)."
@@ -821,7 +821,7 @@ const WORDS = [
   {
     word: "anprobieren",
     translation: "примерять",
-    usage: "Глагол с отделяемой приставкой. Anprobieren — probierte an — anprobiert.",
+    usage: "Глагол с отделяемой приставкой. anprobieren — probierte an — hat anprobiert.",
     examples: [
       "Ich probiere das Kleid an. — Я примеряю платье.",
       "Kann ich das anprobieren? — Можно мне это примерить?"
@@ -830,7 +830,7 @@ const WORDS = [
   {
     word: "ausziehen",
     translation: "снимать (одежду)",
-    usage: "Глагол с отделяемой приставкой. Ausziehen — zog aus — ausgezogen.",
+    usage: "Глагол с отделяемой приставкой. ausziehen — zog aus — hat ausgezogen.",
     examples: [
       "Ich ziehe die Jacke aus. — Я снимаю куртку.",
       "Zieht bitte die Schuhe aus! — Пожалуйста, снимите обувь!"
@@ -839,7 +839,7 @@ const WORDS = [
   {
     word: "wechseln",
     translation: "менять",
-    usage: "Правильный глагол. Wechseln — wechselte — gewechselt.",
+    usage: "Правильный глагол. wechseln — wechselte — hat gewechselt.",
     examples: [
       "Am Abend muss ich mein Outfit wechseln. — Вечером мне нужно сменить образ.",
       "Ich wechsle oft die Kleidung. — Я часто меняю одежду."
@@ -848,7 +848,7 @@ const WORDS = [
   {
     word: "gefallen",
     translation: "нравиться",
-    usage: "Глагол. Используется с дативом: Das gefällt mir. Формы: gefallen — gefiel — gefallen.",
+    usage: "Глагол. gefallen — gefiel — hat gefallen. Используется с дативом: Das gefällt mir.",
     examples: [
       "Das Kleid gefällt mir. — Мне нравится платье.",
       "Wie gefällt dir das? — Как тебе это нравится?"
@@ -857,7 +857,7 @@ const WORDS = [
   {
     word: "auswählen",
     translation: "выбирать",
-    usage: "Глагол с отделяемой приставкой. Auswählen — wählte aus — ausgewählt.",
+    usage: "Глагол с отделяемой приставкой. auswählen — wählte aus — hat ausgewählt.",
     examples: [
       "Beim Einkaufen muss man sorgfältig auswählen. — При шоппинге нужно тщательно выбирать.",
       "Ich wähle heute ein Kleid aus. — Сегодня я выбираю платье."
@@ -866,7 +866,7 @@ const WORDS = [
   {
     word: "zu etwas greifen",
     translation: "тянуться к чему-то, выбирать",
-    usage: "Устойчивое выражение. Greifen — griff — gegriffen.",
+    usage: "Устойчивое выражение. greifen — griff — hat gegriffen.",
     examples: [
       "Wenn ich unsicher bin, greife ich zu Basics. — Когда я не уверена, выбираю базовые вещи.",
       "Ich greife zu Sneakern, weil sie bequemer sind. — Я выбираю кроссовки, потому что они удобнее."
@@ -875,7 +875,7 @@ const WORDS = [
   {
     word: "zusammenpassen",
     translation: "сочетаться",
-    usage: "Глагол с отделяемой приставкой. Zusammenpassen — passte zusammen — zusammengepasst.",
+    usage: "Глагол с отделяемой приставкой. zusammenpassen — passte zusammen — hat zusammengepasst.",
     examples: [
       "Diese Farben passen gut zusammen. — Эти цвета хорошо сочетаются.",
       "Passen diese Schuhe zum Kleid zusammen? — Эти туфли сочетаются с платьем?"
@@ -884,7 +884,7 @@ const WORDS = [
   {
     word: "gut sitzen",
     translation: "хорошо сидеть (о посадке одежды)",
-    usage: "Устойчивое выражение. Sitzen — saß — gesessen.",
+    usage: "Устойчивое выражение. sitzen — saß — hat gesessen.",
     examples: [
       "Das Kleid sitzt gut. — Платье хорошо сидит.",
       "Wenn die Hose nicht gut sitzt, kaufe ich sie nicht. — Если брюки не хорошо сидят, я их не покупаю."
@@ -893,7 +893,7 @@ const WORDS = [
   {
     word: "bügeln",
     translation: "гладить (одежду)",
-    usage: "Правильный глагол. Bügeln — bügelte — gebügelt.",
+    usage: "Правильный глагол. bügeln — bügelte — hat gebügelt.",
     examples: [
       "Ich bügle mein Hemd. — Я глажу рубашку.",
       "Leinen muss man oft bügeln. — Лён нужно часто гладить."
@@ -911,7 +911,7 @@ const WORDS = [
   {
     word: "sich wohlfühlen",
     translation: "чувствовать себя комфортно",
-    usage: "Возвратный глагол. Sich wohlfühlen — fühlte sich wohl — wohlgefühlt.",
+    usage: "Возвратный глагол. sich wohlfühlen — fühlte sich wohl — hat sich wohlgefühlt.",
     examples: [
       "Ich möchte mich in meiner Kleidung wohlfühlen. — Я хочу чувствовать себя комфортно в своей одежде.",
       "In diesem Kleid fühle ich mich wohl. — В этом платье я чувствую себя комфортно."
@@ -920,7 +920,7 @@ const WORDS = [
   {
     word: "kombinieren",
     translation: "сочетать, комбинировать",
-    usage: "Правильный глагол. Kombinieren — kombinierte — kombiniert.",
+    usage: "Правильный глагол. kombinieren — kombinierte — hat kombiniert.",
     examples: [
       "Ich mag es, Farben einfach zu kombinieren. — Мне нравится просто сочетать цвета.",
       "Einfarbige Sachen lassen sich gut kombinieren. — Однотонные вещи хорошо комбинируются."
@@ -929,7 +929,7 @@ const WORDS = [
   {
     word: "knittern",
     translation: "мяться",
-    usage: "Правильный глагол. Knittern — knitterte — geknittert.",
+    usage: "Правильный глагол. knittern — knitterte — hat geknittert.",
     examples: [
       "Leinen knittert schnell. — Лён быстро мнётся.",
       "Dieses Material knittert nicht. — Этот материал не мнётся."
@@ -938,7 +938,7 @@ const WORDS = [
   {
     word: "schwitzen",
     translation: "потеть",
-    usage: "Правильный глагол. Schwitzen — schwitzte — geschwitzt.",
+    usage: "Правильный глагол. schwitzen — schwitzte — hat geschwitzt.",
     examples: [
       "In dicker Kleidung schwitzt man im Sommer schnell. — В тёплой одежде летом быстро потеешь.",
       "Baumwolle ist gut, weil man nicht so schnell schwitzt. — Хлопок хорош, потому что в нём не так быстро потеешь."
@@ -947,7 +947,7 @@ const WORDS = [
   {
     word: "sich entscheiden",
     translation: "принять решение, выбрать",
-    usage: "Возвратный глагол. Sich entscheiden — entschied sich — sich entschieden.",
+    usage: "Возвратный глагол. sich entscheiden — entschied sich — hat sich entschieden.",
     examples: [
       "Ich kann mich nicht entscheiden, was ich anziehen soll. — Я не могу решить, что надеть.",
       "Ich entscheide mich für das blaue Kleid. — Я выбираю синее платье."
@@ -984,7 +984,7 @@ const WORDS = [
   {
     word: "trinken",
     translation: "пить",
-    usage: "Глагол. Формы: trinken — trank — getrunken.",
+    usage: "Глагол. trinken — trank — hat getrunken.",
     examples: [
       "Ich trinke Wasser. — Я пью воду.",
       "Trinkst du Kaffee? — Ты пьёшь кофе?"
@@ -993,7 +993,7 @@ const WORDS = [
   {
     word: "essen",
     translation: "есть, кушать",
-    usage: "Глагол. Формы: essen — aß — gegessen.",
+    usage: "Глагол. essen — aß — hat gegessen. Er/sie isst.",
     examples: [
       "Wir essen Brot. — Мы едим хлеб.",
       "Was isst du? — Что ты ешь?"
@@ -1002,7 +1002,7 @@ const WORDS = [
   {
     word: "lernen",
     translation: "учить, изучать",
-    usage: "Правильный глагол. Lernen — lernte — gelernt.",
+    usage: "Правильный глагол. lernen — lernte — hat gelernt.",
     examples: [
       "Ich lerne Deutsch. — Я учу немецкий.",
       "Sie lernt in der Schule. — Она учится в школе."
@@ -1011,7 +1011,7 @@ const WORDS = [
   {
     word: "gehen",
     translation: "идти",
-    usage: "Глагол. Формы: gehen — ging — gegangen.",
+    usage: "Глагол. gehen — ging — ist gegangen. Движение → Perfekt с sein.",
     examples: [
       "Ich gehe ins Kino. — Я иду в кино.",
       "Wie geht es dir? — Как у тебя дела?"
@@ -1047,7 +1047,7 @@ const WORDS = [
   {
     word: "sprechen",
     translation: "говорить",
-    usage: "Глагол. Формы: sprechen — sprach — gesprochen.",
+    usage: "Глагол. sprechen — sprach — hat gesprochen. Er/sie spricht.",
     examples: [
       "Ich spreche Deutsch. — Я говорю по-немецки.",
       "Sprichst du Englisch? — Ты говоришь по-английски?"
@@ -1092,7 +1092,7 @@ const WORDS = [
   {
     word: "arbeiten",
     translation: "работать",
-    usage: "Правильный глагол. Arbeiten — arbeitete — gearbeitet.",
+    usage: "Правильный глагол. arbeiten — arbeitete — hat gearbeitet.",
     examples: [
       "Ich arbeite in Berlin. — Я работаю в Берлине.",
       "Er arbeitet viel. — Он много работает."
@@ -1101,7 +1101,7 @@ const WORDS = [
   {
     word: "das Wasser",
     translation: "вода",
-    usage: "Существительное, средний род. Обычно без артикля в ед. числе.",
+    usage: "Существительное, средний род. Несчисляемое, мн. число не используется.",
     examples: [
       "Ich trinke Wasser. — Я пью воду.",
       "Das Wasser ist kalt. — Вода холодная."
@@ -1128,7 +1128,7 @@ const WORDS = [
   {
     word: "kaufen",
     translation: "покупать",
-    usage: "Правильный глагол. Kaufen — kaufte — gekauft.",
+    usage: "Правильный глагол. kaufen — kaufte — hat gekauft.",
     examples: [
       "Ich kaufe Brot. — Я покупаю хлеб.",
       "Wo kaufst du ein? — Где ты делаешь покупки?"
@@ -1137,7 +1137,7 @@ const WORDS = [
   {
     word: "wohnen",
     translation: "жить, проживать",
-    usage: "Правильный глагол. Wohnen — wohnte — gewohnt.",
+    usage: "Правильный глагол. wohnen — wohnte — hat gewohnt.",
     examples: [
       "Ich wohne in München. — Я живу в Мюнхене.",
       "Wo wohnst du? — Где ты живёшь?"
@@ -1146,7 +1146,7 @@ const WORDS = [
   {
     word: "heißen",
     translation: "зваться, называться",
-    usage: "Глагол. Формы: heißen — hieß — geheißen.",
+    usage: "Глагол. heißen — hieß — hat geheißen.",
     examples: [
       "Ich heiße Anna. — Меня зовут Анна.",
       "Wie heißt du? — Как тебя зовут?"
@@ -1173,7 +1173,7 @@ const WORDS = [
   {
     word: "sehen",
     translation: "видеть",
-    usage: "Глагол. Формы: sehen — sah — gesehen.",
+    usage: "Глагол. sehen — sah — hat gesehen. Er/sie sieht.",
     examples: [
       "Ich sehe dich. — Я вижу тебя.",
       "Siehst du das Bild? — Ты видишь картину?"
@@ -1182,7 +1182,7 @@ const WORDS = [
   {
     word: "hören",
     translation: "слышать, слушать",
-    usage: "Правильный глагол. Hören — hörte — gehört.",
+    usage: "Правильный глагол. hören — hörte — hat gehört.",
     examples: [
       "Ich höre Musik. — Я слушаю музыку.",
       "Hörst du mich? — Ты меня слышишь?"
@@ -1191,7 +1191,7 @@ const WORDS = [
   {
     word: "schlafen",
     translation: "спать",
-    usage: "Глагол. Формы: schlafen — schlief — geschlafen.",
+    usage: "Глагол. schlafen — schlief — hat geschlafen. Er/sie schläft.",
     examples: [
       "Ich schlafe gut. — Я хорошо сплю.",
       "Das Kind schläft. — Ребёнок спит."
@@ -1209,7 +1209,7 @@ const WORDS = [
   {
     word: "das Essen",
     translation: "еда",
-    usage: "Существительное, средний род. Также инфинитив глагола 'есть'.",
+    usage: "Существительное, средний род. Мн. число: die Essen (редко). Также инфинитив глагола 'есть'.",
     examples: [
       "Das Essen ist lecker. — Еда вкусная.",
       "Ich koche das Essen. — Я готовлю еду."
