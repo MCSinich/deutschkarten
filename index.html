@@ -3,40 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deutsch Karten — A1</title>
+  <title>Deutsch Karten</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="container">
     <h1 class="title">Deutsch Karten</h1>
 
-    <div class="card" id="card">
-      <div class="card-placeholder" id="placeholder">
-        Нажми «Следующее слово», чтобы начать
+    <section class="setup" id="setup">
+      <div class="setup-step" id="stepGroup">
+        <h2 class="setup-title">Выбери группу слов</h2>
+        <div class="option-list" id="groupList"></div>
       </div>
-      <div class="card-content hidden" id="content">
-        <div class="word" id="word"></div>
-        <div class="hint hidden" id="hint">
-          <div class="hint-block">
-            <div class="hint-label">Перевод</div>
-            <div class="hint-text" id="translation"></div>
-          </div>
-          <div class="hint-block">
-            <div class="hint-label">Когда применяется</div>
-            <div class="hint-text" id="usage"></div>
-          </div>
-          <div class="hint-block">
-            <div class="hint-label">Примеры</div>
-            <ul class="examples" id="examples"></ul>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="controls">
-      <button class="btn btn-secondary" id="hintBtn" disabled>Подсказка</button>
-      <button class="btn btn-primary" id="nextBtn">Следующее слово</button>
-    </div>
+      <div class="setup-step hidden" id="stepMode">
+        <h2 class="setup-title">Выбери режим</h2>
+        <div class="option-list">
+          <button class="option" data-mode="single">Одно слово</button>
+          <button class="option" data-mode="triplet">Существительное + прилагательное + глагол</button>
+        </div>
+        <button class="link-btn" id="backToGroup">← назад</button>
+      </div>
+
+      <div class="setup-step hidden" id="stepLang">
+        <h2 class="setup-title">Язык карточки</h2>
+        <div class="option-list">
+          <button class="option" data-lang="de">Немецкие слова</button>
+          <button class="option" data-lang="ru">Русские слова</button>
+        </div>
+        <button class="link-btn" id="backToMode">← назад</button>
+      </div>
+    </section>
+
+    <section class="trainer hidden" id="trainer">
+      <div class="trainer-header">
+        <button class="link-btn" id="backToSetup">← сменить настройки</button>
+        <div class="trainer-info" id="trainerInfo"></div>
+      </div>
+
+      <div class="cards" id="cards"></div>
+
+      <div class="controls">
+        <button class="btn btn-secondary" id="hintBtn" disabled>Подсказка</button>
+        <button class="btn btn-primary" id="nextBtn">Следующее</button>
+      </div>
+    </section>
   </main>
 
   <script src="words.js"></script>
